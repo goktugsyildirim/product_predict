@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ./model:/app/model
+      - ./preprocessed:/app/preprocessed
+    environment:
+      FLASK_ENV: development
+      PYTHONPATH: /app
