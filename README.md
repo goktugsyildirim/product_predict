@@ -57,3 +57,6 @@ Predict the category for new product descriptions.
 # Conclusion
 
 This project demonstrates the process of building a machine learning model to predict product categories from descriptions. It includes data preprocessing, model training and evaluation, and deployment using Docker and Flask.
+
+### Önemli not
+- Modelleri başarılı bir şekilde eğitip raporlarını çıkarabildim. Ama hem bu task'a geç başladığım (sürece sonradan dahil oldum) hem de hafta içlerinde bir şirkette staj yaptığım için yeterli zaman bulamadım. Bu yüzden eğittiğim modelleri bir türlü uygulamaya düzgün entegre edemedim.
